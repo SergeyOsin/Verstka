@@ -10,7 +10,7 @@
 .shapka {
   width: 1600px;
   height: 539px;
-  border: none;
+  border: 1px;
 }
 
 .first {
@@ -19,6 +19,8 @@
   height: 84px;
   display: flex;
   align-items: center;
+  text-align: center;
+  justify-content: center;
   position: relative;
 }
 
@@ -27,11 +29,10 @@
   height: 29px;
   margin-right: 10px;
   background-image: url("/img/basket.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: none;
-  outline: none;
-  display: block;
+  border-bottom-color: white;
+  border-right-color: white;
+  border-left-color: white;
+  border-top-color: white;
 }
 
 
@@ -39,7 +40,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .up_text {
@@ -47,12 +48,13 @@
   font-weight: 700;
   font-size: 12px;
   line-height: 14.63px;
+  text-align: left;
   color: #3145FF;
   margin: 0;
 }
 
 .down_text {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat Light';
   font-weight: 300;
   font-size: 12px;
   line-height: 14.63px;
@@ -60,63 +62,125 @@
   margin: 0;
 }
 
-.small{
+.smll{
+  font-family: 'Montserrat Light';
+  width: 339px;
+  height: 15px;
+  top: 34px;
+  left: 500px;
+  gap: 32.5px;
+  word-spacing: 20px;
   display: flex;
 }
 
-.ball{
+.balls{
+  font-family: 'Montserrat Light';
   width: 35px;
   height: 15px;
-  font-family: 'Montserrat';
   font-weight: 400;
   font-size: 12px;
-  color: #000000;
   line-height: 14.63px;
-  margin-right: 20px;
+  color: #2A2D46;
 }
 
 .cros{
-  font-family: 'Montserrat';
+  font-family: 'Montserrat Light';
   width: 68px;
   height: 15px;
   font-weight: 400;
   font-size: 12px;
   line-height: 14.63px;
   color: #3145FF;
-  margin-right: 20px;
+}
+
+.mikes{
+  font-family: 'Montserrat Light';
+  width: 43px;
+  height: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.63px;
+  color: #000000;
+}
+
+.shorts{
+  font-family: 'Montserrat Light';
+  width: 44px;
+  height: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.63px;
+  color: #000000;
+}
+
+.points{
+  width: 19px;
+  height: 3px;
+  color: #2A2D46;
 }
 
 .telephone {
+  margin-left: 30px;
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 13px;
   line-height: 15.85px;
   display: flex;
-  margin-right: 20px; /* Добавьте отступ справа */
+  margin-right: 20px;
 }
 
-.call {
+.rectangle{
   width: 123px;
   height: 25px;
-  border: 1px solid #EB2D66; /* Установите цвет границы */
+  top: 30px;
+  left: 1053px;
   background-color: white;
-  margin-right: 20px; /* Добавьте отступ справа */
-}
-
-.call a {
-  font-family: 'Montserrat';
-  font-size: 11px;
-  font-weight: 700;
-  line-height: 13.41px;
+  border: 1px solid #EB2D66;
   color: #EB2D66;
-  text-decoration: none; /* Уберите подчеркивание */
+  font-weight: bold;
+  margin-right: 30px;
 }
 
-img.corz {
+.sold{
+  margin-right: 20px;
+  display: flex;
+  margin-left: 30px;
   width: 125px;
   height: 25px;
-  margin-right: 10px;
+  top: 30px;
+  left: 1245px;
+}
 
+.corz{
+  background-image: url("/img/Vector.png");
+  width: 25px;
+  height: 24px;
+  top: 1.04px;
+  border: none;
+}
+
+.rub{
+  margin-left: 10px;
+  font-family: 'Montserrat Light';
+  width: 63px;
+  height: 15px;
+  top: 35px;
+  left: 1285px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14.63px;
+  color: #000000;
+  display: flex;
+}
+
+.triangle{
+  margin-left: 10px;
+  background-image: url("/img/Down_Triangle.png");
+  width: 11px;
+  height: 6px;
+  top: 42px;
+  left: 1359px;
+  border: none;
 }
 
 
@@ -125,8 +189,32 @@ img.corz {
   height: 279px;
   top: 150px;
   left: 215px;
-  position: absolute;
+  position: relative;
   display: block;
+}
+
+.bold_text{
+  font-family: 'Montserrat';
+  width: 544px;
+  height: 88px;
+  top: 150px;
+  left: 215px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43.88px;
+  color: #2A2D46;
+}
+
+.typical_text{
+  font-family: 'Montserrat Light';
+  width: 380px;
+  height: 78px;
+  top: 263px;
+  left: 215px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.72px;
+  color: #2A2D46;
 }
 
 .lock_catalog{
@@ -155,7 +243,6 @@ img.corz {
   top: 105px;
   left: 742px;
   position: fixed;
-  display: block;
 }
 
 .big_image{
@@ -164,10 +251,11 @@ img.corz {
   height: 369px;
   top: 105px;
   left: 929px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .jordans{
-  background-image: url("/img/jordans.png");
   width: 554px;
   height: 332px;
   top: 207px;
